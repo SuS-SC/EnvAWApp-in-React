@@ -1,5 +1,7 @@
 import React from "react";
 import "./CurrentWeather.css";
+import all from "./media/icons/all.png";
+import tree from "./media/tree.png";
 
 export default function CurrentWeather() {
   return (
@@ -9,7 +11,7 @@ export default function CurrentWeather() {
           <div className="card-group">
             <div className="card image">
               <img
-                src="media/icons/all.png"
+                src={all}
                 className="card-img"
                 id="weatherIcon"
                 alt="all Icons"
@@ -54,7 +56,7 @@ export default function CurrentWeather() {
               </div>
             </div>
             <div className="card image">
-              <img src="media/tree.png" id="natureIcon" alt="tree" />
+              <img src={tree} id="natureIcon" alt="tree" />
             </div>
           </div>
         </div>

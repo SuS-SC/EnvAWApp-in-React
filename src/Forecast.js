@@ -1,6 +1,12 @@
 import React from "react";
 import Search from "./Search";
 import "./Forecast.css";
+import ladybug_1280 from "./media/ladybug_1280.png";
+import flowerorange_640 from "./media/flowerorange_640.png";
+import flowerred_640 from "./media/flowerred_640.png";
+import flowerviolet_640 from "./media/flowerviolet_640.png";
+import flowerwhite_640 from "./media/flowerwhite_640.png";
+import floweryellow_640 from "./media/floweryellow_640.png";
 
 export default function Forecast() {
   return (
@@ -10,7 +16,7 @@ export default function Forecast() {
           <h5 className="nextDays">
             {" "}
             <img
-              src="media/ladybug_1280.png"
+              src={ladybug_1280}
               className="ladybugIcon"
               width="30px"
               alt="lady bug"
@@ -22,7 +28,7 @@ export default function Forecast() {
         <div className="card-deck">
           <div className="card width-auto">
             <img
-              src="media/flowerred_640.png"
+              src={flowerred_640}
               id="forecast1"
               className="card-img-top"
               alt="red flower"
@@ -35,7 +41,7 @@ export default function Forecast() {
           </div>
           <div className="card width-auto">
             <img
-              src="media/flowerorange_640.png"
+              src={flowerorange_640}
               id="forecast2"
               className="card-img-top"
               alt="orange flower"
@@ -48,7 +54,7 @@ export default function Forecast() {
           </div>
           <div className="card width-auto">
             <img
-              src="media/flowerwhite_640.png"
+              src={flowerwhite_640}
               id="forecast3"
               className="card-img-top"
               alt="white flower"
@@ -61,7 +67,7 @@ export default function Forecast() {
           </div>
           <div className="card width-auto">
             <img
-              src="media/flowerviolet_640.png"
+              src={flowerviolet_640}
               id="forecast4"
               className="card-img-top"
               alt="violet flower"
@@ -74,7 +80,7 @@ export default function Forecast() {
           </div>
           <div className="card width-auto">
             <img
-              src="media/floweryellow_640.png"
+              src={floweryellow_640}
               id="forecast5"
               className="card-img-top"
               alt="yellow flower"

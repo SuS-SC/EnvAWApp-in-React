@@ -1,6 +1,9 @@
 import React from "react";
 import Footer from "./Footer";
 import "./Search.css";
+import keyboard_1280 from "./media/keyboard_1280.png";
+import glass_1280 from "./media/glass_1280.png";
+import tracker_1280 from "./media/tracker_1280.png";
 
 export default function Search() {
   return (
@@ -11,11 +14,7 @@ export default function Search() {
             <div className="input-group mb-2">
               <div className="input-group-prepend">
                 <div className="input-group-text">
-                  <img
-                    src="media/keyboard_1280.png"
-                    width="35px"
-                    alt="keyboard"
-                  />
+                  <img src={keyboard_1280} width="35px" alt="keyboard" />
                 </div>
               </div>
               <input
@@ -29,11 +28,7 @@ export default function Search() {
                 className="btn btn-outline-success"
                 id="city-button"
               >
-                <img
-                  src="media/glass_1280.png"
-                  width="20px"
-                  alt="magnifing glass"
-                />
+                <img src={glass_1280} width="20px" alt="magnifing glass" />
               </button>
               <br />
               <button
@@ -41,7 +36,7 @@ export default function Search() {
                 className="btn btn-outline-success"
                 id="current-location"
               >
-                <img src="media/tracker_1280.png" width="15px" alt="tracker" />
+                <img src={tracker_1280} width="15px" alt="tracker" />
               </button>
             </div>
           </form>

@@ -7,7 +7,7 @@ body {
   border-style: ridge;
   border-color: #865324;
   border-width: 10px;
-  background-image: url(/media/corkboard.jpg);
+  background-image: url(`cork-board.jpg`);
   width: auto;
 }
 

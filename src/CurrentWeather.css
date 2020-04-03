@@ -9,7 +9,7 @@
   border-radius: 12px;
 }
 .card.notepad {
-  background-image: url(/media/notepad.png);
+  background-image: url(`notepad.png`);
   background-repeat: no-repeat;
   background-size: cover;
   border-right-color: #dadde1;
