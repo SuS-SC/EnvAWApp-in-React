@@ -1,0 +1,10 @@
+form {
+  padding: 0px;
+  margin: 0px;
+  box-shadow: 0px 0px transparent;
+}
+
+#current-location {
+  display: block;
+  margin: 0 auto;
+}

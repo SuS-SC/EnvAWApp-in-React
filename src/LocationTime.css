@@ -1,0 +1,33 @@
+.card.locationTime {
+  display: block;
+  padding: 5px;
+  margin: 0 auto;
+  border-color: #384d20;
+  border-style: solid;
+  border-width: 7px;
+}
+h3 {
+  font-size: 35px;
+  font-weight: 300;
+  color: #384d20;
+}
+.pin1,
+.pin2 {
+  width: 44px;
+  transform: rotateY(180deg);
+  margin: 0 auto;
+}
+.pin2 {
+  transform: rotateY(0deg);
+}
+
+#location {
+  font-size: 35px;
+  font-weight: 300;
+  color: #384d20;
+  text-transform: capitalize;
+}
+h5 {
+  font-size: 19px;
+  color: #4eae53;
+}
