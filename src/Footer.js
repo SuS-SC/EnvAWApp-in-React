@@ -6,7 +6,7 @@ export default function Footer() {
     <div className="footerWrapper">
       <footer>
         <span id="EnvAWAp">Environment Awareness Weather App </span> <br />
-        <a href="https://github.com/SuS-SC/EnvAWApp" target="blank">
+        <a href="https://github.com/SuS-SC/EnvAWApp-in-react" target="blank">
           {" "}
           Open-source code
         </a>{" "}
